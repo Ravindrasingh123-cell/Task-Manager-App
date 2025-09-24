@@ -1,0 +1,32 @@
+# Python dependencies for Task Manager App
+# These are optional dependencies for development tools and backend services
+
+# Development Tools
+black==23.7.0
+flake8==6.0.0
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Backend Services (if using Python backend)
+fastapi==0.103.0
+uvicorn==0.23.2
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.19
+alembic==1.11.1
+psycopg2-binary==2.9.7
+
+# Firebase Admin SDK (for Python backend)
+firebase-admin==6.2.0
+
+# Testing
+pytest-asyncio==0.21.1
+httpx==0.24.1
+
+# Documentation
+mkdocs==1.5.2
+mkdocs-material==9.2.8
