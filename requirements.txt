@@ -1,13 +1,14 @@
 # Python dependencies for Task Manager App
-# These are optional dependencies for development tools and backend services
+# These are OPTIONAL dependencies for development tools and backend services
+# This is primarily a React Native/JavaScript project
 
-# Development Tools
+# Development Tools (Optional)
 black==23.7.0
 flake8==6.0.0
 pytest==7.4.0
 pytest-cov==4.1.0
 
-# Backend Services (if using Python backend)
+# Backend Services (Optional - only if using Python backend)
 fastapi==0.103.0
 uvicorn==0.23.2
 python-multipart==0.0.6
@@ -15,18 +16,18 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 python-dotenv==1.0.0
 
-# Database
-sqlalchemy==2.0.19
-alembic==1.11.1
-psycopg2-binary==2.9.7
+# Database (Optional - only if using Python backend)
+# sqlalchemy==2.0.19
+# alembic==1.11.1
+# psycopg2-binary==2.9.7
 
-# Firebase Admin SDK (for Python backend)
+# Firebase Admin SDK (Optional - only if using Python backend)
 firebase-admin==6.2.0
 
-# Testing
+# Testing (Optional)
 pytest-asyncio==0.21.1
 httpx==0.24.1
 
-# Documentation
+# Documentation (Optional)
 mkdocs==1.5.2
 mkdocs-material==9.2.8

@@ -1,0 +1,13 @@
+[build]
+  # This is a React Native/JavaScript project, not Python
+  command = "echo 'This is a React Native project. Use npm install to install dependencies.'"
+  publish = "."
+  
+[build.environment]
+  NODE_VERSION = "18"
+  
+# Redirect rules for React Native web version
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

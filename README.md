@@ -140,14 +140,18 @@ task-manager-app/
 
 ## Dependency Files
 
-### JavaScript Dependencies
+### JavaScript Dependencies (Primary)
 - **`package.json`** - Main JavaScript dependencies and scripts
 - **`package-lock.json`** - Locked dependency versions
 - **`yarn.lock`** - Yarn dependency lock file (if using Yarn)
 
-### Python Dependencies (Optional)
-- **`requirements.txt`** - Python packages for backend development
+### Python Dependencies (Optional - Backend Only)
+- **`requirements.txt`** - Python packages for backend development (OPTIONAL)
 - **`venv/`** - Python virtual environment (not tracked in git)
+
+### Deployment Configuration
+- **`netlify.toml`** - Netlify deployment configuration
+- **`.gitignore`** - Git ignore rules
 
 ### Configuration Files
 - **`.gitignore`** - Files to exclude from version control
